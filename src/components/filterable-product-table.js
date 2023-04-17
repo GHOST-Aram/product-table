@@ -10,7 +10,9 @@ const FilterableProductTable = ({products}) => {
   
   return (
     <div className='container px-2 rounded-md my-8'>
-        <SearchBar filterText={filterText} inStockOnly = {inStockOnly} />
+        <SearchBar filterText={filterText} inStockOnly = {inStockOnly} 
+          onFiltertTextChange = {setFilterText} onStockOnlyChange = {setInstock}
+        />
         <ProductTable filterText={filterText} inStockOnly = {inStockOnly}
          products = {products}/>
     </div>
