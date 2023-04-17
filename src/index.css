@@ -87,6 +87,9 @@ table{
 .text-left{
   text-align: left;
 }
+.text-red{
+  color: red;
+}
 .w-full{
   width: 100%;
 }
