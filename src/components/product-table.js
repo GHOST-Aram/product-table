@@ -2,11 +2,15 @@ import TableHeader from './table-head'
 import ProductCategory from './product-cartegory'
 import React from 'react'
 
-const ProductTable = () => {
+const ProductTable = ({categories, products}) => {
   return (
     <table border={0}>
         <TableHeader />
-        <ProductCategory />
+        {
+            categories.map(category => {
+                return <ProductCategory category = {category} products =  {products} />
+            })
+        }
     </table>
   )
 }

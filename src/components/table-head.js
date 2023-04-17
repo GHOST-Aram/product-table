@@ -2,7 +2,7 @@ import React from 'react'
 
 const TableHeader = () => {
   return (
-    <thead><tr><th>Name</th><th>Price</th></tr></thead>
+    <thead><tr><th className='text-left'>Name</th><th>Price</th></tr></thead>
   )
 }
 

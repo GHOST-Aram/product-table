@@ -12,11 +12,18 @@
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
 }
+.bg-light-gray{
+  background: rgb(159, 157, 157);
+}
 body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+.border-none{
+  border: none;
+}
+
 input:focus{
   outline: none;
 }
@@ -63,7 +70,7 @@ code {
   padding-inline: .25rem;
 }
 .py-1{
-  padding-block: .25rem;
+  padding-block: .5rem;
 }
 .rounded-md{
   border-radius: var(--medium-radius);
@@ -76,6 +83,9 @@ table{
 }
 .text-center{
   text-align: center;
+}
+.text-left{
+  text-align: left;
 }
 .w-full{
   width: 100%;
