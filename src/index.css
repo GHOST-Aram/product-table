@@ -38,7 +38,7 @@ code {
     monospace;
 }
 .container{
-  width: 70%;
+  width: 50%;
   margin: auto;
 }
 .mr-2{
@@ -57,16 +57,22 @@ code {
   align-items: start;
 }
 .px-1{
-  padding-inline: 1rem;
+  padding-inline: .5rem;
+}
+.px-2{
+  padding-inline: .25rem;
 }
 .py-1{
-  padding-block: 1rem;
+  padding-block: .25rem;
 }
 .rounded-md{
   border-radius: var(--medium-radius);
 }
 .rounded-sm{
   border-radius: var(--small-radius);
+}
+table{
+  width: 100%;
 }
 .w-full{
   width: 100%;

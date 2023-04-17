@@ -1,11 +1,11 @@
-import SearchBar from './search-bar'
+import TableHeader from './table-head'
 import React from 'react'
 
 const ProductTable = () => {
   return (
-    <div className='container border-2 border-lavender rounded-md my-8'>
-        <SearchBar />
-    </div>
+    <table border={0}>
+        <TableHeader />
+    </table>
   )
 }
 
