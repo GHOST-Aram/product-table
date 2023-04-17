@@ -74,6 +74,9 @@ code {
 table{
   width: 100%;
 }
+.text-center{
+  text-align: center;
+}
 .w-full{
   width: 100%;
 }
