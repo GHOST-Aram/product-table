@@ -11,14 +11,10 @@ function App() {
     { category: "Vegetables", price: "$4", stocked: false, name: "Pumpkin" },
     { category: "Vegetables", price: "$1", stocked: true, name: "Peas" }
   ]
-  let categories = []
-  products.forEach(product => {
-    if(!categories.includes(product.category))
-        categories = [...categories, product.category] 
-  });
+  
   return (
     <div className="App">
-      <FilterableProductTable categories={categories} products = {products} />  
+      <FilterableProductTable products = {products} />  
     </div>
   );
 }
