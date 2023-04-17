@@ -4,7 +4,7 @@ import React from 'react'
 import { useState } from 'react';
 
 const FilterableProductTable = ({products}) => {
-  const [filterText, setFilterText] = useState('')
+  const [filterText, setFilterText] = useState('Fruit')
   const [inStockOnly, setInstock] = useState(false)
 
   

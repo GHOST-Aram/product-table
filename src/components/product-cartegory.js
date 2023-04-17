@@ -8,7 +8,7 @@ const ProductCategory = ({category, products}) => {
         <tr className='w-full'><th className='text-center'>{category}</th></tr>
         {
             products.map(product =>{
-                return category === product.category && <Product name={product.name} price={product.price}/>
+                return category === product.category && <Product product={product}/>
             })
         }
     </>
